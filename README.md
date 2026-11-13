@@ -38,7 +38,7 @@ java -cp target/classes VMproject.Main programs/countdown.asm
 
 2. Ouvrir un terminal et taper :
    ```
-   git clone LIEN-DU-DEPOT
+   git clone https://github.com/imranebiar-jpg/VMproject.git
    cd VMproject
    mvn compile
    ```
@@ -56,3 +56,10 @@ git commit -m "ce que j'ai fait"
 git pull
 git push
 ```
+## Règles de l'équipe
+
+1. `git pull` avant de commencer.
+2. Modifier **uniquement ses propres fichiers**.
+3. `mvn compile` pour vérifier que tout compile.
+4. `git add .`, puis `git commit -m "description"`, puis `git pull`, puis `git push`.
+5. Ne jamais changer un numéro d'instruction sans prévenir toute l'équipe (voir `SPEC.md`).
